@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Simonetta:400,900&display=swap&subset=latin-ext');
+
+:root {
+    --main-color: rgb(130, 118, 118);
+    --accent-color: rgb(86, 7, 15);
+    --text-color: rgb(69,58,58);
+    --background-color-1: rgb(242, 239, 255);
+    --background-color-2: rgba(58, 58, 58, 0.04);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--background-color-1);
+    color: var(--text-color);
+    font-family: 'Simonetta', serif;
+    font-size: 20px;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    padding: 40px 0;
+}
+
+ .logo {
+     width: 400px;
+     font-size: 48px;
+     margin: 0 auto;
+     display: flex;
+ }
+.logo__text {
+    color: var(--accent-color);
+    text-shadow: 3px 1px var(--background-color-2);
+}
+
+.menu {
+    width: 100%;
+    padding: 10px 0;
+    background: var(--background-color-2);
+    text-align: center;
+    border: 1px solid var(--accent-color);
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    height: 40px;
+}
+ .conteiner {
+     width: 80%;
+     margin: 0 auto;
+     padding: 1rem 2rem;
+ }
+
+ .content {
+     text-align: justify;
+     display: flex;
+     justify-content: left;
+ }
+ .articles {
+     padding: 1rem;
+ }
+ .titles {
+     font-size: 1.4rem;
+     padding-bottom: 0.8rem;
+     text-align: center;
+     color: var(--main-color);
+     text-shadow: 3px 1px var(--background-color-2);
+ }
+ .first_word {
+     padding-left: 1.5rem;
+     color: var(--accent-color);
+ }
+
+ .socials__banner {
+     width: 100%;
+     text-align: center;
+     background: var(--background-color-2);
+     padding: 2rem;
+ }
+.social__divs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.soc {
+    width: 120px;
+    height: 120px;
+}
+.fb {
+    background: rgba(70, 104, 179, 0.2);
+}
+.fb:hover {
+    background: rgba(70, 104, 179, 0.8);
+}
+.yt {
+    background: rgba(217, 67, 72, 0.2);
+}
+.yt:hover {
+    background: rgba(217, 67, 72, 0.8);
+}
+.tw {
+    background: rgba(48, 149, 211, 0.2);
+}
+.tw:hover {
+    background: rgba(48, 149, 211, 0.8);
+}
+.gplus {
+    background: rgba(217, 83, 51, 0.2);
+}
+.gplus:hover {
+    background: rgba(217, 83, 51, 0.8);
+}
+
+.foot__div {
+    background: var(--background-color-2);
+    display: flex;
+    color: var(--main-color);
+    font-size: 0.9rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1rem;
+}
+.foot__div p {
+    padding: 0 1rem;
+}
