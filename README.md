@@ -1,2 +1,2 @@
-# BestShop
-Desktop. wg. projektu z Adobe XD. Warsztaty: Coders Lab FER - Workshop
+# Nigredo.pl
+pierwsze kroki, HTML5 plus czysty CSS.

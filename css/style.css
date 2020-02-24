@@ -57,6 +57,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 80px;
 }
 .li__menu {
     width: 20%;
@@ -87,7 +88,14 @@ body{
      border-bottom: none;
  }
 .in__menu {
-    visibility: hidden;
+    position: relative;
+    z-index: 110;
+    display: none;
+}
+.li__menu:hover .in__menu {
+    display: block;
+    background-color: rgb(217, 217, 217);
+    z-index: 130;
 }
 
  .conteiner {
